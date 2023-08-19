@@ -1,0 +1,34 @@
+body{
+    color:cornflowerblue;
+    font-family: "REM", sans-serif;
+}
+
+.jumbotron{
+    background-color: aliceblue;
+    margin: auto;
+    padding: 10px;
+}
+
+.jumbotron h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.jumbotron  h1,
+.jumbotron p{
+    text-align: center;
+}
+
+.jumbotron p{
+    font-size: 2rem;
+}
+
+#googleMap{
+    width: 90%;
+    height: 500px;
+    margin: 20px auto;
+}
+
+#output{
+    color: aquamarine;
+}

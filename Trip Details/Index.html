@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Trip Details</title>
+        <link href="bootstrap.min.css" rel="stylesheet"/>
+        <link rel="preconnect" href="fonts.gstatic.com">
+        <script src="https://kit.fontawesome.com/ab2155e76b.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet">
+        <link href="Index.css" rel="stylesheet"/>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container-fluid">
+                <h1>IOCL DRIVER TRACKER</h1>
+                <p>TRIP DETAILS</p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h3 class="col-xs-offset-1"><u></u></h3>
+                            <label for="driver-details" class="col-xs-1"><i class="fa fa-user" aria-hidden="true"></i></label>
+                            <p id="driver-details"></p>
+                            <label for="trip-details" class="col-xs-1"><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                            <p id="trip-details" class=""></p>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div id="output">
+                        
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div id="googleMap">
+
+            </div>
+        </div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&libraries=places"></script>//Enter YOUR_KEY for google api maps
+        <script src="App.js" type="module"></script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228449854217",
+    "project_id": "iocl-driver-44287",
+    "storage_bucket": "iocl-driver-44287.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228449854217:android:1c3590ddc44cb8c761e9d8",
+        "android_client_info": {
+          "package_name": "com.example.iocldriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228449854217-9t2jb742em8v4334j9iiegrb7j54qudt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtrzY2M6mIcKgJkW4oXZXXbByznagSdb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228449854217-9t2jb742em8v4334j9iiegrb7j54qudt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
