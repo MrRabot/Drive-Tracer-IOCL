@@ -18,9 +18,6 @@ const databaseReference = ref(database, driverID+tripID)
 
 
 
-
-
-
 //Driver details
 document.getElementById("driver-details").innerHTML = "Driver 1";
 
